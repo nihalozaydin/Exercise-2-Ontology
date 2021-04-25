@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:dbb17a68-a957-44ee-a236-8ca13d2d9b88#"
+     xml:base="urn:webprotege:ontology:dbb17a68-a957-44ee-a236-8ca13d2d9b88"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:dbb17a68-a957-44ee-a236-8ca13d2d9b88"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71slOECTkgFwoRcncIeWAC -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R71slOECTkgFwoRcncIeWAC">
+        <rdfs:label xml:lang="en">Movies</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2Y2QLoZE16XyzQlXg5iIn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2Y2QLoZE16XyzQlXg5iIn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jac Schaeffer</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cate Shortland</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">July 9, 2021</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A film about Natasha Romanoff in her quests between the films Civil War and Infinity War.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">video</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engillsh</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Widow</dc:title>
+        <rdfs:label xml:lang="en">actionMovies</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt3480822/?ref_=nv_sr_srsg_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5JUcp1LACdPT2psyAHEpk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5JUcp1LACdPT2psyAHEpk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nick Vallelonga</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Farrelly</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">November, 30 2018</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Video</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drama</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Book</dc:title>
+        <rdfs:label xml:lang="en">dramaMovies</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt6966692/?ref_=nv_sr_srsg_6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8i5Kox8pCSd2qCMbpyroDu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8i5Kox8pCSd2qCMbpyroDu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scott Kosar</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrew Douglas</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">November, 4 2005</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newlyweds are terrorized by demonic forces after moving into a large house that was the site of a grisly mass murder a year before.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Video</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horror</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Amityville Horror</dc:title>
+        <rdfs:label xml:lang="en">horrorMovies</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt0384806/?ref_=nv_sr_srsg_10"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPgcXvVTfMZSxOcGGE8e6m -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPgcXvVTfMZSxOcGGE8e6m">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonathan Nolan</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christopher Nolan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">November, 7 2014</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A team of explorers travel through a wormhole in space in an attempt to ensure humanity&apos;s survival.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Video</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">science fiction</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstellar</dc:title>
+        <rdfs:label xml:lang="en">scienceficMovies</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE">
+        <rdfs:label xml:lang="en">Movies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVGaLTyX8IDzhm28ITlqU0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDVGaLTyX8IDzhm28ITlqU0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terence Winter</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin Scorsese</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">February, 7 2014</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Video</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biography</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Wolf of Wall Street</dc:title>
+        <rdfs:label xml:lang="en">biographyMovies</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt0993846/?ref_=adv_li_tt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RegtsjuHxAyJWZfn5lwcgz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RegtsjuHxAyJWZfn5lwcgz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBib7NuIcaF2CWeGcFeMjxE"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Fallon</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chuck Russell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">December, 23 1994</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bank clerk Stanley Ipkiss is transformed into a manic superhero when he wears a mysterious mask.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Video</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comedy</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Mask</dc:title>
+        <rdfs:label xml:lang="en">comedyMoveis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt0110475/?ref_=nv_sr_srsg_0"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">movies</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
